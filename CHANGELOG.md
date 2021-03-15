@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Format source files in the `apps` folder with clang-format by running `make format`
 - Support for the `2_lanes`, `8_lanes`, and `16_lanes` configurations, besides the default `4_lanes` one
+- Vector floating-point compare instructions (vmfeq, vmfne, vmflt, vmfle, vmfgt, vmfge)
 
 ### Changed
 
