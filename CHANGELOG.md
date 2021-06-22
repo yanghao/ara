@@ -33,6 +33,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Reduce number of words on the main memory, for faster Verilation
 - Update `common_cells` to v1.22.1
 - Update `axi` to v0.29.1
+- Add spill register at the lane edge, to cut the timing-critical interface between the Mask unit and the VFUs
+- Increase latency of the 16-bit multiplier from 0 to 1 to cut an in-lane timing-critical path
 
 ## 2.0.0 - 2021-06-24
 
