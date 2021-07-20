@@ -15,6 +15,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - `benchmarks` app to benchmark Ara
 - CI task to create roofline plots of `imatmul` and `fmatmul`, available as artifacts
 
+### Changed
+
+- Widen CVA6's cache lines
+- Implement back-to-back accelerator instruction issue mechanism on CVA6
+
 ## 2.1.0 - 2021-07-16
 
 ### Fixed
